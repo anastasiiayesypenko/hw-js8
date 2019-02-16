@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.image-gallery, .constructor {
+    margin-left: 15%;
+    width: 70%;
+    margin-top: 3%;
+    text-align: center;
+}
+.active-image {
+    width: 80%;
+    margin-bottom: 20px;
+}
+.preview {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
+.preview__image, .constructor-preview__image {
+    width: 170px;
+}
+.chosen-preview-image, .constructor-chosen-preview-image {
+    border: 3px solid #724f64ad;
+}
